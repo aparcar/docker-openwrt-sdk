@@ -1,6 +1,6 @@
 FROM aparcar/openwrt-sdk:base
 
-ENV SDK_URL "https://downloads.openwrt.org/releases/18.06.1/targets/x86/64/openwrt-sdk-18.06.1-x86-64_gcc-7.3.0_musl.Linux-x86_64.tar.xz"
+ENV SDK_URL "https://downloads.openwrt.org/releases/18.06.2/targets/x86/64/openwrt-sdk-18.06.2-x86-64_gcc-7.3.0_musl.Linux-x86_64.tar.xz"
 ENV SDK_SUFFIX .tar.xz
 
 RUN wget -nv $SDK_URL &&\
